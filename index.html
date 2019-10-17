@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Curriculum Vitae</title>
+    <!--Required meta tags-->
+    <meta charset="utf-8" />
+
+    <!--Bootstrap CSS-->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="CSS/custom.css" />
+    <link rel="stylesheet" href="CSS/resposive.css" />
+  </head>
+  <body>
+    <!--Header-->
+    <header class="header-area fixed-top">
+      <div class="main-menu">
+        <nav class="navbar">
+          <div class="container">
+            <ul class="nav ml-auto mr-auto mr-md-0">
+              <li class="nav-item active">
+                <a class="nav-link" href="#main-info">Principal</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">Habilidades</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#education">Educacion</a>
+              </li>
+              <li class="nav-item submenu dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  data-toggle="dropdown"
+                  role="button"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  href="#"
+                  >Proyectos</a
+                >
+                <ul class="dropdown-menu">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://github.com/evavargas"
+                      >GitHub</a
+                    >
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!--Main Info-->
+    <section class="main-info bg-grad" id="main-info">
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-12 col-md-5 col-xl-6 img-col d-flex align-items-center"
+          >
+            <div class="img-container d-flex justify-content-center">
+              <img src="Images/myPicture.jpg" alt="Foto de perfil" />
+            </div>
+          </div>
+          <div class="col-12 col-md-7 col-xl-6 txt-col">
+            <div class="text-container">
+              <h3 class="sect-title text-uppercase">Eva Vargas Zevallos</h3>
+              <h4 class="text-uppercase">Desarrolladora de Software</h4>
+              <p>Desarrollo de aplicaciones web</p>
+              <ul class="list-unstyled basic-info">
+                <li><i class="fas fa-calendar-alt"></i> Abril, 1996</li>
+                <li><i class="fas fa-phone"></i>(+51) 959 879 029</li>
+                <li><i class="fas fa-at"></i>eva.estrella96gmail.com</li>
+                <li><i class="fas fa-map-marker-alt"></i>Argentina</li>
+              </ul>
+              <ul class="list-inline social-nw">
+                <li class="list-inline-item">
+                  <a href="·"><i class="fab fa-linkedin"></i></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="·"><i class="fab fa-twitter-square"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Skills-->
+    <section class="sect skills" id="skills">
+      <div class="container">
+        <div class="head-content d-flex align-items-baseline">
+          <button
+            class="btn"
+            type="button"
+            data-toggle="collapse"
+            data-target="#skills-content"
+            aria-expanded="false"
+            aria-controls="skills-content"
+          >
+            <i class="far fa-plus-square"></i>
+          </button>
+          <h3 class="sect-title">Habilidades</h3>
+        </div>
+        <div class="row collapse" id="skills-content">
+          <div class="skills-col col-12 col-md-6">
+            <h4 class="sect-subtitle">Desarrollo de software</h4>
+            <div class="skill-item">
+              <p class="text">R</p>
+              <div class="progress">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 98%"
+                  aria-valuenow="98"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  98%
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="skills-col col-12 col-md-6">
+            <h4 class="sect-subtitle">Otras</h4>
+            <div class="skill-item">
+              <p class="text">R</p>
+              <div class="progress">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 98%"
+                  aria-valuenow="98"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  98%
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Portfolio-->
+    <section class="sect porfolio bg-grad-b" id="portfolio">
+      <div class="container">
+        <div class="head-content d-flex align-items-baseline">
+          <button
+            class="btn"
+            type="button"
+            data-toggle="collapse"
+            data-target="#portfolio-content"
+            aria-expanded="false"
+            aria-controls="portfolio-content"
+          >
+            <i class="far fa-plus-square"></i>
+          </button>
+          <h3 class="sect-title">Proyectos</h3>
+        </div>
+      </div>
+      <div class="container-fluid collapse" id="portfolio-content">
+        <div
+          class="card-container d-flex flex-wrap justify-content-around align-items-center"
+        >
+          <div class="card">
+            <div class="card-body">
+              <i class="fas fa-credit-card"></i>
+              <h5 class="card-title">Ssis</h5>
+              <p class="card-text">lelelele</p>
+              <a href="#" class="btn btn-primary">Sitio Web</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-body">
+              <i class="fal fa fa-crow"></i>
+              <h5 class="card-title">Ssis</h5>
+              <p class="card-text">la remiseria de pio</p>
+              <a href="#" class="btn btn-primary">Sitio Web</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--JavaScript-->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
